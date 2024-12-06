@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>冬瓜blog</title>
+  
+  
+  <link href="http://dgtea.site/atom.xml" rel="self"/>
+  
+  <link href="http://dgtea.site/"/>
+  <updated>2024-11-30T17:09:42.664Z</updated>
+  <id>http://dgtea.site/</id>
+  
+  <author>
+    <name>冬瓜</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://dgtea.site/2024/12/01/hello-world/"/>
+    <id>http://dgtea.site/2024/12/01/hello-world/</id>
+    <published>2024-11-30T17:09:42.663Z</published>
+    <updated>2024-11-30T17:09:42.664Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>广东省未成年人业余无线电设台指北</title>
+    <link href="http://dgtea.site/2024/06/01/teens-ham-radio-gz/"/>
+    <id>http://dgtea.site/2024/06/01/teens-ham-radio-gz/</id>
+    <published>2024-06-01T15:45:06.000Z</published>
+    <updated>2024-12-06T15:48:42.851Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>业余无线电台管理办法<br>第八条 未成年人可以设置、使用工作在30-3000MHz频段且最大发射功率不大于25瓦的业余无线电台。</p></blockquote><p>我当时看到这个啊 我就兴奋了<br>哥们五百年前考的证总算能设台了<br>现在呼号下来了，来写点我遇到的坑</p><p>设台的前提是考取由 CRAC 颁发的业余无线电台操作资格证书, 考试内容不再纂述。<br>你需要到<a href="http://www.gdradio.gd.gov.cn:18084/RsApply/">这里</a>填写业余无线电台设置、使用申请表，拍摄你的设备的核准码、序列号、正面外观，然后到广东政务服务中心的<a href="https://www.gdzwfw.gov.cn/portal/v3/guide/11440100007482567N344010401300307">这里</a>提交资料</p><p>需要注意：</p><ul><li>全国范围设台需要填写一张设台理由说明书，我懒得搞了，所以就拿了省内</li><li>未成年人设台需要监护人在申请表上一同签名，同时提交监护人知情书（xxx（身份证：***）为 yyy 的父 &#x2F; 母，了解并同意 yyy 设立业余无线电台 balabala）、户口本首页、监护人页、申请人页或是其他可以证明监护人和申请人关系的材料<br>查询进度并不能在政务中心直接查询，需要到专门的<a href="https://bsxt.gdzwfw.gov.cn/UnifiedReporting/affairs/index">办事系统</a>查询，最狗屎的一集<br>总共用时差不多是五日办结，办结后可以在粤省事的数字中心查到数字证书<br>很糊，发到邮箱会好很多</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;业余无线电台管理办法&lt;br&gt;第八条 未成年人可以设置、使用工作在30-3000MHz频段且最大发射功率不大于25瓦的业余无线电台。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我当时看到这个啊 我就兴奋了&lt;br&gt;哥们五百年前考的证总算能设台了&lt;br&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>新的一年，2024</title>
+    <link href="http://dgtea.site/2024/01/28/2024/"/>
+    <id>http://dgtea.site/2024/01/28/2024/</id>
+    <published>2024-01-28T15:26:58.000Z</published>
+    <updated>2024-12-06T15:39:27.711Z</updated>
+    
+    <content type="html"><![CDATA[<p>感觉2023过得好快，好梦幻 一下子就到2024了<br>上一年也是发生了很多的事情，虽然没多少是好事就是了<br>心里越来越爆炸，成绩也是在稳步下滑<br>怎么好像每次写东西都是负能量<br>其实还好，毕竟除了某些视奸的sb之外也没有人会看这里了<br>每个人都是如此，在匿名化的城市生活中更甚<br>擦肩而过的人不会在意你是谁，也许昨天还和你相谈甚欢的人转眼就同你兵戈相向<br>如此的社会，只能在里面苟延残喘，在不存在的虚拟世界里寻找慰籍<br>这可能也能解释为什么当代人的心理疾病如此普遍的存在了吧</p><p>期中考完试回来，算是和家里人吵了一架，然后把补习班停了<br>结果可想而知，雪上加霜<br>让我很好奇的一点是，为什么我的语文能考这个分数<br>区里面2.8k&#x2F;3.2k无论如何都很逆天了 也许我不是中国人<br>对未来的期望也算是越来越渺茫，不知道要干什么，学期的最后两个星期可以算是真正的浑浑噩噩了<br>然而向以前看去，依稀记得我并不是这么颓废<br>到底是我的原因还是其他，找出所谓“真凶”也并无意义<br>大抵是落差导致的吧，每次都努力了，但是每次都换不出来自己想要的成绩，于是就这样躺平摆烂，我觉得像我这样的人应该不算少数<br>但是，我记得我是有梦想的，不过我早就忘记它是什么了<br>多么讽刺的一件事，作为人成长动力的梦想居然会被遗忘之类的，换作是之前的我，估计也不会想到这一出<br>搞无线电，搞音乐，搞摄影balabala，都是如此遥不可及的梦</p><p>我不知道我要去做什么</p><p>现在的我，感觉每天都很充实，但是仔细一想，又是如此空虚无力<br>500px的图没人看，投稿过不了，无线电呼号下不来，骑车速度上不去<br>好像我是万金油一般的，啥啥都会，啥啥不行<br>这么一想，我大抵是辜负了很多人的期待吧<br>小升初没考好，初升高没考好，也许高考也考不好吧<br>虽说人生并不只有考试和学习，但是在这个科举制的社会环境下，我所在的社会阶层的命运早已经被确定好了<br>让我想起之前看过的一个段子:</p><p>中国的游戏需要有教育意义，电影需要有教育意义，音乐需要有教育意义<br>但是学习不用，学习是用来筛选的</p><p>我突然释怀的笑.jpg<br>也许只有在这种时刻，才能感受到自己的无力感<br>14亿分之一的力量太渺小了，渺小到无法改变任何事<br>自我就在由14亿人组成的洪流之间漂浮不定，你若是想逆着大流走，即便你做的是正确的，也会被人群起而攻之<br>依稀记得，好像民国在大陆的时期也是如此？<br>毕竟成王败寇，自古以来的道理<br>无法追求绝对的自由，无法追求绝对的公正，而越是如此，对其的渴望就愈加强烈，愈加痛苦<br>这个社会需要愚人，不需要思考<br>btw，写这些东西让我像是那种12岁网络觉醒的愤青小学生<br>不过还是写吧，毕竟我还能拥有写作的权利</p><p>牢骚发完了，说下最近的事情吧<br>在学校组的乐队最近总算演出了，虽然只是年级内部的<br>在台上激情罚站，下面的人看了都尴尬<br>总体效果不算非常好，但是我们挺满意的<br>然后，最近开始去拍火车了<br>广深铁路上面，现在拍到的车还算多，1A,6A,380,300AF,400AF,SS8,HXD1D,确实挺有意思<br>不过广深铁路的车在白天的种类可能也不是很多，要试试晚上去拍了<br>emm，还有什么可以写吗<br>哦对，之前也写了点东西来着，但是文件丢了，wayback machine也没有，就让他随风飘散吧</p><p>这里应该写一个结尾，但是我不想写<br>总之，希望我能走上不后悔的路</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;感觉2023过得好快，好梦幻 一下子就到2024了&lt;br&gt;上一年也是发生了很多的事情，虽然没多少是好事就是了&lt;br&gt;心里越来越爆炸，成绩也是在稳步下滑&lt;br&gt;怎么好像每次写东西都是负能量&lt;br&gt;其实还好，毕竟除了某些视奸的sb之外也没有人会看这里了&lt;br&gt;每个人都是如此，在</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>这两个月拍的胶卷</title>
+    <link href="http://dgtea.site/2023/03/26/films-2203/"/>
+    <id>http://dgtea.site/2023/03/26/films-2203/</id>
+    <published>2023-03-25T19:06:19.000Z</published>
+    <updated>2023-04-29T03:57:47.054Z</updated>
+    
+    <content type="html"><![CDATA[<p>如题，这两个月拍了挺多卷的，不过主要还是福马<del>毕竟便宜</del>，大体上就是福马100、400，乐凯飞机卷，狗屁3 100，5219<br>上点样片吧<br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000063.JPG" title="5219+人精"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000049.JPG" title="5219+人精"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000062.JPG" title="5219+人精"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000030.JPG" title="Fom400"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000018.JPG" title="Fom400"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000043.JPG" title="Fom400+FF-10"><br>其实还有挺多片的，不过太烂了就不放了<br>还需要加油啊</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;如题，这两个月拍了挺多卷的，不过主要还是福马&lt;del&gt;毕竟便宜&lt;/del&gt;，大体上就是福马100、400，乐凯飞机卷，狗屁3 100，5219&lt;br&gt;上点样片吧&lt;br&gt;&lt;img src=&quot;https://blog-1258513008.cos.ap-guangzhou.my</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>《铃芽之旅》的个人感受</title>
+    <link href="http://dgtea.site/2023/03/26/lyzl/"/>
+    <id>http://dgtea.site/2023/03/26/lyzl/</id>
+    <published>2023-03-25T18:36:28.000Z</published>
+    <updated>2023-04-29T03:57:47.050Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/IMG_20230325_230820.jpg"><br>这部片按我的评价标准来说，能算是很好的一部片了，叫他是新海诚集大成之作不是没有原因的。</p><h2 id="00x剧情"><a href="#00x剧情" class="headerlink" title="00x剧情"></a>00x剧情</h2><p>剧情来说，就是传统的日漫套路，男女主拯救世界，貌似新海诚的几部作品都是这样……<br>但也不是说他不好看，新海诚擅长什么呢，我认为他擅长去把原本平凡的东西不凡化。天气之子就是一个很明显的例子——我在看天气之子的小说的时候没有被震撼到或者被剧情所触动，因为剧情太常见了，以至于我已经知道了他要说什么。<br>但是转到电影上就不一样，新海诚的画面表现力是无与伦比的，搭配上RADWIMPS的配乐简直可以碾压一众电影，包括某个春节票房no.1（绝对不是满江红），音乐鼓点和动画节奏的把握让新海诚给了观众一个无与伦比的观影体验，<del>反正我全程憋尿看完了</del><br>很奇怪，明明是这么简单的剧情套路，中国怎么就做不出来呢？也许是我把这项工作想的太简单了，亦或许是现在的大环境不适合创作者创作吧。<br>剧情内容就不剧透了，可以触动我。  </p><h2 id="001x作画"><a href="#001x作画" class="headerlink" title="001x作画"></a>001x作画</h2><p>不用说，顶级。<br>之前有人说，我不会画画就不要去对别人的画面评头论足，但是也不可能所有的观众都会画画，我就以一位普通观众的视角以我的知识讨论他的作画吧。<br>很明显的是他的日漫画风<del>废话别人日本人</del>，整部片的色彩鲜艳，饱和度高却不会使人有不适感，非常和谐……<br>好吧我编不下去了，总之就是非常好看，绝对配得上他的名号，截图当壁纸也是很好的。</p><h2 id="010x配乐"><a href="#010x配乐" class="headerlink" title="010x配乐"></a>010x配乐</h2><p>在我看这部电影之前就有同学跟我说了这部片的主题曲很好听，我听了也确实很好听。如果按照我心目中音乐排行来算的话，《Suzume》这首歌绝对能进前五。不是第一的原因也许是J-Pop听多了，没有一开始给我的震撼感，但是这首歌作为RADWIMPS的作品是绝对合格甚至超前的。<br>除去OP、ED，电影内的配乐也不错，就像在剧情那里写的一样，音乐鼓点和剧情节奏完美和在一起，这也使得《铃芽之旅》这部片成功的一大原因，配乐中穿插的人声合奏搭配剧情的推进，实话实说，我被深深的震撼到了，上一次如此震撼还是YOASOBI的《群青》高潮开头段，早已经是三年前，当然，剧情本身的功劳也不可或缺。</p><h2 id="011x小细节"><a href="#011x小细节" class="headerlink" title="011x小细节"></a>011x小细节</h2><p>日本人就喜欢搞小细节，我回忆下都看到了啥玩意</p><blockquote><p>手机刷Felica<br>JR站台<br>自动贩卖机和M记刷的也是Felica<br>曲线锯以及一堆木工工具<br>and so on…<br><del>怎么就记得felica了</del><br><del>新海诚Felica代言人说</del></p></blockquote><h2 id="100x总结"><a href="#100x总结" class="headerlink" title="100x总结"></a>100x总结</h2><p>总结？总结就是开头所说的，这是一步好电影，值得你话几十块钱去看一遍，但是封神的话……还有待商榷。<del>我认为新海诚的作品都应该封神</del><br>看完《铃芽之旅》也可以去看看《流浪地球2》，强推，同时嘲讽某个春节票房榜一（<del>是你吗满江红</del></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/IMG_20230325_230820.jpg&quot;&gt;&lt;br&gt;这部片按我的评价标准来说，能算是很好的一部片了，叫他是新海诚集大成之作不是没有原因的。&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>主题更换！</title>
+    <link href="http://dgtea.site/2023/03/24/theme-change/"/>
+    <id>http://dgtea.site/2023/03/24/theme-change/</id>
+    <published>2023-03-24T15:39:41.000Z</published>
+    <updated>2023-04-29T03:57:47.010Z</updated>
+    
+    <content type="html"><![CDATA[<p><del>换成了&#96;hexo-theme-jelly’</del><br>换回去了，换主题好麻烦哦（躺）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;del&gt;换成了&amp;#96;hexo-theme-jelly’&lt;/del&gt;&lt;br&gt;换回去了，换主题好麻烦哦（躺）&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>学习、日常和无线电考试</title>
+    <link href="http://dgtea.site/2023/03/24/recent0324/"/>
+    <id>http://dgtea.site/2023/03/24/recent0324/</id>
+    <published>2023-03-24T14:53:42.000Z</published>
+    <updated>2023-04-29T03:57:47.010Z</updated>
+    
+    <content type="html"><![CDATA[<p>每次写东西都要把markdown速查表打开，感觉好诡异。<br>说markdown是很优雅的编写语言，反正我是没找到好用的markdown编辑器，现在在用vscode苟且偷生ww<br>总之，写下最近发生的事情吧。  </p><p>·00x分班和学习</p><p><del>很成功的被分到了普通班！</del>虽然我确实摆了点烂（指完全没上网课），在预料之中，但是落差感还是会有的。<br>也算是好事？至少现在有学习的动力了，不会像以前那样颓废了，回去把那堆混进重点班的人打下来是关键。<br>还有的话，人品和成绩不成正比，这个道理初中就知道了，遇到垃圾人就不要再和它吵来吵去……<br>卷啊！为啥不卷！中国的教育体系就是用来卷的，你不卷别人会卷，在这个循环里面上不去下不来，卡在这了。毕竟国家也不需要这么多的人才，人多人少都不差我一个，一个人的力量实在是太小了，能创造的也太少了，真正能改变世界的个人有很多，但是不是我，也不需要我。毕竟我天朝地大物博，无奇不有啊。  </p><p>·01x日常</p><p>日常啊，说起这个我还没看日常来着（ry<br>在学校能有啥日常，写题目写题目考试吃饭睡觉，千篇一律。<br>不过这学校倒是可以观察物种多样性，至少现在这个班就非常的抽象，也可以说是这个班主任非常抽象。<del>让我疯狂的，可爱女人</del><br>太可爱了他奶奶的，这个班主任已经低能到一定程度了，感觉每天见到她就像欠了她八百块钱一样呃呃<br>真不想说，不过上课没有问题，反正都是嗯造必刷题。<br>抽象人也不只班主任吧，有些垃圾人也挺抽象的，不评价。<br>说起来，最近在看《自然辩证法》这本书，<del>不过没看懂</del>，其实我也差不多明白了国内那些“觉醒”哥的成分了。<br>           灯    资本论      恩格斯<br>           桌子桌子桌子桌子      马克思<br>  “一些十几岁的初中生想用半个小时搞懂我们深邃的思想”<br>世 界 名 画<br>总之，路漫漫其修远兮啊，当反动分子也要先理解别人的理论如何才能更好的驳倒它，所谓‘知己知彼百战百胜’嘛。<br>争取早日看上《资本论》<br>还有《电工学》、《微机接口与原理技术》，本科教材其实也看得懂，但是还有很多基础知识没有学，现在就卷大学是不可能的，当课外书看吧。<br>笑话：为什么中国人讨厌4？ 因为4是0100<br><del>比卤豆腐还冷</del><br>还有社团，摄影社目前为止三个星期活动了一次，可喜可贺</p><p>·10x无线电</p><p>等了三百年，大清都亡了，我终于去考了A证，结束两年守听生涯。<br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/IMG_20230304_100439.jpg"><br>考试前的骑车卡点<br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/IMG_20230311_125426.jpg"><br>考场的牌子<br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/IMG_20230311_130225.jpg"><br>考场内部<br>总体来说难度可以说是没有（<br>五分钟写完了，在考场等了十分钟才出来，希望能早日拿证</p><p>总的来说，这个月过得好也不好，努力吧。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;每次写东西都要把markdown速查表打开，感觉好诡异。&lt;br&gt;说markdown是很优雅的编写语言，反正我是没找到好用的markdown编辑器，现在在用vscode苟且偷生ww&lt;br&gt;总之，写下最近发生的事情吧。  &lt;/p&gt;
+&lt;p&gt;·00x分班和学习&lt;/p&gt;
+&lt;p&gt;&lt;de</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>最近的一些事和牢骚</title>
+    <link href="http://dgtea.site/2023/02/10/recent0210/"/>
+    <id>http://dgtea.site/2023/02/10/recent0210/</id>
+    <published>2023-02-10T14:41:57.000Z</published>
+    <updated>2023-04-29T03:57:47.018Z</updated>
+    
+    <content type="html"><![CDATA[<p>突然想起还有这个网站，找个时间来这写点东西<br>最近的事情其实也不能算很好，主要是开学，上五天学跟坐五天牢一样，每天凌晨五点五十被精确的呼噜声吵醒，上课被隔壁dinner烦死，整个学上下来人都要死了。<br>不过和同学聊天啥的还是很舒服，很开心，但好像聊的起来的不是很多，之前聊的挺好的现在好像不是很想和我聊天了，估计是玩农玩的。<br>开学之前一直在拍胶卷，两卷乐凯是自己冲洗出来的，后面有时间一定补个文<del>(咕咕)</del><br>还有几卷电影卷，福马啥的<br>现在比较烦的事情就是选课，网课几个月下来等于没有上课，很担心能不能上重点。<br>还有mc，拉上几个人进行一个生存的玩，肥肠爽。<br>想到再继续写吧。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;突然想起还有这个网站，找个时间来这写点东西&lt;br&gt;最近的事情其实也不能算很好，主要是开学，上五天学跟坐五天牢一样，每天凌晨五点五十被精确的呼噜声吵醒，上课被隔壁dinner烦死，整个学上下来人都要死了。&lt;br&gt;不过和同学聊天啥的还是很舒服，很开心，但好像聊的起来的不是很多，</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二卷胶片，福马Pan100</title>
+    <link href="http://dgtea.site/2023/01/10/fomapan100/"/>
+    <id>http://dgtea.site/2023/01/10/fomapan100/</id>
+    <published>2023-01-10T14:01:10.000Z</published>
+    <updated>2023-04-29T03:57:47.010Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为一卷黑白卷，我买它的原因也不多，主要是<del>我很穷</del>相对于彩负有性价比，作为练手卷挺不错。<br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000015.JPG"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000021.JPG"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000036.JPG"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000035.JPG"><br>一卷下来合冲洗差不多一张两块，还算平价，这卷偷到了40exp  </p><hr><p>拍片其实和器材，没啥关系<br>说实话福马pan100也不是高级卷，我也没用过高级的机器<br>还是要慢慢学习慢慢练  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;作为一卷黑白卷，我买它的原因也不多，主要是&lt;del&gt;我很穷&lt;/del&gt;相对于彩负有性价比，作为练手卷挺不错。&lt;br&gt;&lt;img src=&quot;https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/000015.JPG&quot;&gt;&lt;br</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>记录第一次的胶卷寄送冲洗</title>
+    <link href="http://dgtea.site/2022/12/15/film/"/>
+    <id>http://dgtea.site/2022/12/15/film/</id>
+    <published>2022-12-15T10:26:22.000Z</published>
+    <updated>2023-04-29T03:57:47.010Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近拍完了一卷新佰的黑白卷，和同学的柯达金200一起寄出去洗，记录下</p><hr><h2 id="20221215"><a href="#20221215" class="headerlink" title="20221215"></a>20221215</h2><p>准备寄出<br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/films.jpg"></p><h2 id="20221221"><a href="#20221221" class="headerlink" title="20221221"></a>20221221</h2><p>洗完了<br>顺带测试下腾讯云COS<br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/15630035.png"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/15630027.png"><br><img src="https://blog-1258513008.cos.ap-guangzhou.myqcloud.com/15630018.png"></p><hr><p>新佰的这卷胶片说实话在我意料之内 这个价位要啥自行车<br>新佰官网说这是电影卷<br>不过相机漏光确实要解决下了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近拍完了一卷新佰的黑白卷，和同学的柯达金200一起寄出去洗，记录下&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;20221215&quot;&gt;&lt;a href=&quot;#20221215&quot; class=&quot;headerlink&quot; title=&quot;20221215&quot;&gt;&lt;/a&gt;20221215&lt;/h2&gt;&lt;p</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在没有Valine支持的hexo主题里使用valine</title>
+    <link href="http://dgtea.site/2022/12/13/valine-in-hexo/"/>
+    <id>http://dgtea.site/2022/12/13/valine-in-hexo/</id>
+    <published>2022-12-13T11:37:26.000Z</published>
+    <updated>2023-04-29T03:57:47.006Z</updated>
+    
+    <content type="html"><![CDATA[<p>好吧，是我的问题<br>很简单的方法是在模板的结尾贴上Valine的片段<br>模板位于scaffolds内<br><del>水水水</del></p><p>——————<br>fix:这种操作会让不够长的文章在预览中暴露出valine的代码段……<br>但是valine好像本来就是能在源代码里面看见的</p><hr><p>20230402<br>喜报 可以改post.ejs</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;好吧，是我的问题&lt;br&gt;很简单的方法是在模板的结尾贴上Valine的片段&lt;br&gt;模板位于scaffolds内&lt;br&gt;&lt;del&gt;水水水&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;——————&lt;br&gt;fix:这种操作会让不够长的文章在预览中暴露出valine的代码段……&lt;br&gt;但是valine</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>傻瓜都能会的hexo博客搭建方法（CF Workers）</title>
+    <link href="http://dgtea.site/2022/12/13/ez-2-hexo-on-cfworkers/"/>
+    <id>http://dgtea.site/2022/12/13/ez-2-hexo-on-cfworkers/</id>
+    <published>2022-12-13T09:01:01.000Z</published>
+    <updated>2023-04-29T03:57:46.994Z</updated>
+    
+    <content type="html"><![CDATA[<p>Cloudflare更新了他们家的wrangler 2，导致一些教程失效，在这写一下我遇到的坑<br>以下内容在Ubuntu 22.04官方软件源上可用</p><h1 id="一-配置hexo"><a href="#一-配置hexo" class="headerlink" title="一.配置hexo"></a>一.配置hexo</h1><p>hexo的配置很简单，跟着官方教程走就行</p><h2 id="1-配置Node-js-Git"><a href="#1-配置Node-js-Git" class="headerlink" title="1.配置Node.js&#x2F;Git"></a>1.配置Node.js&#x2F;Git</h2><p><code>sudo apt install git-core</code><br><code>sudo apt install nodejs</code></p><h2 id="2-安装hexo本体"><a href="#2-安装hexo本体" class="headerlink" title="2.安装hexo本体"></a>2.安装hexo本体</h2><p><code>npm install hexo-cli -g</code><br>会遇到报错，执行下列命令<br><code>mkdir ~/.npm-global</code><br><code>npm config set prefix &#39;~/.npm-global&#39;</code><br><code>export PATH=~/.npm-global/bin:$PATH</code><br><code>source ~/.profile</code><br><code>npm install -g jshint</code><br>执行完毕后重新安装hexo<br>安装完成后执行<br><code>echo &#39;PATH=&quot;$PATH:./node_modules/.bin&quot;&#39; &gt;&gt; ~/.profile</code><br>以便全局使用hexo</p><h1 id="二-配置Wrangler"><a href="#二-配置Wrangler" class="headerlink" title="二.配置Wrangler"></a>二.配置Wrangler</h1><p>Wrangler算是挺难搞的了，Wrangler2我至今没搞清楚怎么用<br>遂安装Wrangler1<br><code>npm i @cloudflare/wrangler -g</code><br>配置Wrangler，此处需要一个可用的、绑定域名（可不绑定）的Cloudflare账户<br>先创建一个Workers，命名为blog（也可以是别的，后文以blog代替）<br>在<a href="https://dash.cloudflare.com/">Cloudflare控制台</a>处点击右上角——我的个人资料——API令牌<br>选择创建令牌，模板使用<code>编辑 Cloudflare Workers</code>,账户资源选择<code>你的ID Cloudflare</code>,区域资源选择<code>你的域名（若有）</code>，TTL随意<br>确认后会出现一个Token，这个token<strong>只会出现一次</strong><br>执行命令<br><code>wrangler config</code><br>将你的Token输入进去，正常无报错  </p><h1 id="三-配置项目"><a href="#三-配置项目" class="headerlink" title="三.配置项目"></a>三.配置项目</h1><p>新建一个目录，这个目录就是你的博客工作文件夹<br><code>mkdir ur_dir</code><br><code>cd ur_dir</code><br>执行各个工具的初始化<br><code>hexo init</code><br><code>wrangler init</code><br>hexo的配置文件位于<code>_config.yml</code>,请查阅<a href="https://hexo.io/zh-cn/docs/">hexo官方文档</a>修改<br>Wrangler的配置文件位于<code>wrangler.toml</code>,请参考下列配置按需修改  </p><blockquote><p>name &#x3D; “你的workers名称”<br>type &#x3D; “webpack”<br>route &#x3D; ‘你的域名（包括workers.dev）&#x2F;*’<br>zone_id &#x3D; ‘’<br>usage_model &#x3D; ‘’<br>compatibility_flags &#x3D; []<br>workers_dev &#x3D; true<br>compatibility_date &#x3D; “2022-12-13”  </p><p>[site]<br>bucket &#x3D; “.&#x2F;public”<br>entry-point &#x3D; “workers-site”  </p></blockquote><p>保存后即可</p><h1 id="四-编写与上传"><a href="#四-编写与上传" class="headerlink" title="四.编写与上传"></a>四.编写与上传</h1><p>hexo更改主题、配置、新建文章请参考<a href="https://hexo.io/zh-cn/docs/">hexo官方文档</a><br>当你写完你的文章后，进行上传<br><code>hexo g</code><br><code>wrangler publish</code><br>也可以使用本地服务器预览<br><code>hexo server</code>  </p><h1 id="五-问题与坑"><a href="#五-问题与坑" class="headerlink" title="五.问题与坑"></a>五.问题与坑</h1><h2 id="1-wrangler命令未找到"><a href="#1-wrangler命令未找到" class="headerlink" title="1.wrangler命令未找到"></a>1.wrangler命令未找到</h2><p>属于变量问题，在<code>wrangler</code>前添加<code>npx</code>即可</p><h2 id="2-wrangler上传失败"><a href="#2-wrangler上传失败" class="headerlink" title="2.wrangler上传失败"></a>2.wrangler上传失败</h2><p>cf日常抽风，挂梯子或者等一会</p><h2 id="3-域名无法打开"><a href="#3-域名无法打开" class="headerlink" title="3.域名无法打开"></a>3.域名无法打开</h2><p>Workers没有绑定你的域名，在你的Workers——自定义域中添加域名<br>包括www与不带www的域名<br>正常的话你的DNS解析会多两条Workers解析</p><h1 id="六-小技巧"><a href="#六-小技巧" class="headerlink" title="六.小技巧"></a>六.小技巧</h1><p>我一般会把<code>hexo g</code>和<code>wrangler publish</code>做成一个sh，方便快捷<br>如下  </p><blockquote><p>#!&#x2F;bin&#x2F;bash<br>hexo g<br>npx wrangler publish  </p></blockquote><p>保存后添加可执行权限就能一个脚本完成生成与上传了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Cloudflare更新了他们家的wrangler 2，导致一些教程失效，在这写一下我遇到的坑&lt;br&gt;以下内容在Ubuntu 22.04官方软件源上可用&lt;/p&gt;
+&lt;h1 id=&quot;一-配置hexo&quot;&gt;&lt;a href=&quot;#一-配置hexo&quot; class=&quot;headerlink&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网易云音乐在Ubuntu22.04上报错闪退</title>
+    <link href="http://dgtea.site/2022/12/13/netease-music-in-2204-crash/"/>
+    <id>http://dgtea.site/2022/12/13/netease-music-in-2204-crash/</id>
+    <published>2022-12-13T08:43:58.000Z</published>
+    <updated>2023-04-29T03:57:46.970Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于猪场百年不维护网易云音乐linux版，导致最新官方只支持18.04<br>在22.04上dpkg不会报错，打开时无反应，终端打开提示  </p><blockquote><p>&#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;netease-cloud-music: &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libselinux.so.1: no version information available (required by &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libgio-2.0.so.0)  </p><p>&#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;netease-cloud-music: symbol lookup error: &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libgio-2.0.so.0: undefined symbol: g_module_open_full&#96;</p></blockquote><p>在<code>/opt/netease/netease-cloud-music/netease-cloud-music.bash</code>中倒数第二行加入<code>cd /lib/x86_64-linux-gnu/</code>后即可解决</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;由于猪场百年不维护网易云音乐linux版，导致最新官方只支持18.04&lt;br&gt;在22.04上dpkg不会报错，打开时无反应，终端打开提示  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x2F;opt&amp;#x2F;netease&amp;#x2F;netease-cloud-musi</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
