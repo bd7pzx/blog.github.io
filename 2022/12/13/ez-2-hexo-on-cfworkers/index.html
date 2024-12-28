@@ -1,56 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="robots" content="noindex">
-  
-  <title>傻瓜都能会的hexo博客搭建方法（CF Workers） - 冬瓜blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  
-  <meta name="keywords" content=>
-  
-  
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.02">
-  
-  
-
-  
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <title>傻瓜都能会的hexo博客搭建方法（CF Workers）</title>
+    
 <link rel="stylesheet" href="/css/style.css">
 
 <meta name="generator" content="Hexo 7.3.0"></head>
   <body>
-    <div class="container">
+    <main class="container">
       <header class="header">
-  <div class="blog-title">
-    <a href="/" class="logo">冬瓜blog</a>
-    <div class="subtitle"></div>
-  </div>
-  <nav class="navbar">
-    <ul class="menu">
-      
-        <li class="menu-item">
-          <a href="/" class="menu-item-link">首页</a>
-        </li>
-      
-        <li class="menu-item">
-          <a href="/about" class="menu-item-link">关于</a>
-        </li>
-      
-    </ul>
-  </nav>
+    <div class="blog-title">
+        <h1><a href="/">冬瓜blog</a></h1>
+        <p class="description"></p>
+    </div>
+    <nav class="navbar">
+        <ul class="menu">
+            
+            <li class="menu-item">
+                <a href="/" class="menu-item-link">writing</a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/about" class="menu-item-link">who am I?</a>
+            </li>
+            
+        </ul>
+    </nav>
 </header>
-<article class="post">
-  <div class="post-title">
-    <h1 class="article-title">傻瓜都能会的hexo博客搭建方法（CF Workers）</h1>
-  </div>
-   <div class="post-meta" style="color:#0000ff;font-size:16px;">
-    <span class="post-time">2022-12-13</span> <br>
-  </div>
-  <div class="post-content">
-    <p>Cloudflare更新了他们家的wrangler 2，导致一些教程失效，在这写一下我遇到的坑<br>以下内容在Ubuntu 22.04官方软件源上可用</p>
+
+      <article class="post">
+          <div class="post-title">
+            <h2 class="title">傻瓜都能会的hexo博客搭建方法（CF Workers）</h2>
+          </div>          
+          <div class="post-meta">
+            <span class="post-time">2022-12-13</span>
+            
+            
+            <hr>
+          </div>
+          <div class="post-content"><p>Cloudflare更新了他们家的wrangler 2，导致一些教程失效，在这写一下我遇到的坑<br>以下内容在Ubuntu 22.04官方软件源上可用</p>
 <h1 id="一-配置hexo"><a href="#一-配置hexo" class="headerlink" title="一.配置hexo"></a>一.配置hexo</h1><p>hexo的配置很简单，跟着官方教程走就行</p>
 <h2 id="1-配置Node-js-Git"><a href="#1-配置Node-js-Git" class="headerlink" title="1.配置Node.js&#x2F;Git"></a>1.配置Node.js&#x2F;Git</h2><p><code>sudo apt install git-core</code><br><code>sudo apt install nodejs</code></p>
 <h2 id="2-安装hexo本体"><a href="#2-安装hexo本体" class="headerlink" title="2.安装hexo本体"></a>2.安装hexo本体</h2><p><code>npm install hexo-cli -g</code><br>会遇到报错，执行下列命令<br><code>mkdir ~/.npm-global</code><br><code>npm config set prefix &#39;~/.npm-global&#39;</code><br><code>export PATH=~/.npm-global/bin:$PATH</code><br><code>source ~/.profile</code><br><code>npm install -g jshint</code><br>执行完毕后重新安装hexo<br>安装完成后执行<br><code>echo &#39;PATH=&quot;$PATH:./node_modules/.bin&quot;&#39; &gt;&gt; ~/.profile</code><br>以便全局使用hexo</p>
@@ -70,22 +60,11 @@
 <p>#!&#x2F;bin&#x2F;bash<br>hexo g<br>npx wrangler publish  </p>
 </blockquote>
 <p>保存后添加可执行权限就能一个脚本完成生成与上传了</p>
+</div
 
-  </div>
-  <div class="post-footer">
-    
-
-    <a href="#top" class="top">Back to Top</a>
-  </div>
-  
-</article>
-<footer>
-  &copy; 2024
-  <span class="author">
-    冬瓜
-  </span>
-</footer>
-
-    </div>
+        </article>
+        
+        <!-- <p class="footer">Made with ♥︎ by 冬瓜</p> -->
+      </main>
   </body>
 </html>
