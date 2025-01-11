@@ -40,12 +40,12 @@
             
             <hr>
           </div>
-          <div class="post-content"><p><b>由于猪场百年不维护网</b>易云音乐linux版，<b>导致最新官方</b>只支持18.04<br><b>在</b>22.<b>04上dpk</b>g不会报错，<b>打开时</b>无反应，<b>终端打</b>开提示  </p>
+          <div class="post-content"><p>由于猪场百年不维护网易云音乐linux版，导致最新官方只支持18.04<br>在22.04上dpkg不会报错，打开时无反应，终端打开提示  </p>
 <blockquote>
-<p>&#x2F;<b>o</b>pt&#x2F;<b>nete</b>ase&#x2F;<b>nete</b>ase-<b>clo</b>ud-<b>mus</b>ic&#x2F;<b>nete</b>ase-<b>clo</b>ud-<b>mus</b>ic: &#x2F;<b>o</b>pt&#x2F;<b>nete</b>ase&#x2F;<b>nete</b>ase-<b>clo</b>ud-<b>mus</b>ic&#x2F;<b>li</b>bs&#x2F;<b>libse</b>linux.<b>s</b>o.1: <b>n</b>o <b>vers</b>ion <b>inform</b>ation <b>avail</b>able (<b>requ</b>ired <b>b</b>y &#x2F;<b>o</b>pt&#x2F;<b>nete</b>ase&#x2F;<b>nete</b>ase-<b>clo</b>ud-<b>mus</b>ic&#x2F;<b>li</b>bs&#x2F;<b>lib</b>gio-2.0.<b>s</b>o.0)  </p>
-<p>&#x2F;<b>o</b>pt&#x2F;<b>nete</b>ase&#x2F;<b>nete</b>ase-<b>clo</b>ud-<b>mus</b>ic&#x2F;<b>nete</b>ase-<b>clo</b>ud-<b>mus</b>ic: <b>sym</b>bol <b>loo</b>kup <b>err</b>or: &#x2F;<b>o</b>pt&#x2F;<b>nete</b>ase&#x2F;<b>nete</b>ase-<b>clo</b>ud-<b>mus</b>ic&#x2F;<b>li</b>bs&#x2F;<b>lib</b>gio-2.0.<b>s</b>o.0: <b>undef</b>ined <b>sym</b>bol: <b>g</b><em><b>mod</b>ule</em><b>op</b>en_<b>fu</b>ll&#96;</p>
+<p>&#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;netease-cloud-music: &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libselinux.so.1: no version information available (required by &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libgio-2.0.so.0)  </p>
+<p>&#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;netease-cloud-music: symbol lookup error: &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libgio-2.0.so.0: undefined symbol: g_module_open_full&#96;</p>
 </blockquote>
-<p><b>在</b><!-- text-vide-ignore:#123;index++} --><b>中倒数第</b>二行加入<!-- text-vide-ignore:#123;index++} --><b>后即可</b>解决</p>
+<p>在<code>/opt/netease/netease-cloud-music/netease-cloud-music.bash</code>中倒数第二行加入<code>cd /lib/x86_64-linux-gnu/</code>后即可解决</p>
 </div
 
         </article>
