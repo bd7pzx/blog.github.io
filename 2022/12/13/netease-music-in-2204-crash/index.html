@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <title>网易云音乐在Ubuntu22.04上报错闪退</title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+  <body>
+    <main class="container">
+      <header class="header">
+    <div class="blog-title">
+        <h1><a href="/">冬瓜blog</a></h1>
+        <p class="description"></p>
+    </div>
+    <nav class="navbar">
+        <ul class="menu">
+            
+            <li class="menu-item">
+                <a href="/" class="menu-item-link">writing</a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/about" class="menu-item-link">who am I?</a>
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+
+      <article class="post">
+          <div class="post-title">
+            <h2 class="title">网易云音乐在Ubuntu22.04上报错闪退</h2>
+          </div>          
+          <div class="post-meta">
+            <span class="post-time">2022-12-13</span>
+            
+            
+            <hr>
+          </div>
+          <div class="post-content"><p>由于猪场百年不维护网易云音乐linux版，导致最新官方只支持18.04<br>在22.04上dpkg不会报错，打开时无反应，终端打开提示  </p>
+<blockquote>
+<p>&#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;netease-cloud-music: &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libselinux.so.1: no version information available (required by &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libgio-2.0.so.0)  </p>
+<p>&#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;netease-cloud-music: symbol lookup error: &#x2F;opt&#x2F;netease&#x2F;netease-cloud-music&#x2F;libs&#x2F;libgio-2.0.so.0: undefined symbol: g_module_open_full&#96;</p>
+</blockquote>
+<p>在<code>/opt/netease/netease-cloud-music/netease-cloud-music.bash</code>中倒数第二行加入<code>cd /lib/x86_64-linux-gnu/</code>后即可解决</p>
+</div
+
+        </article>
+        
+        <!-- <p class="footer">Made with ♥︎ by 冬瓜</p> -->
+      </main>
+  </body>
+</html>

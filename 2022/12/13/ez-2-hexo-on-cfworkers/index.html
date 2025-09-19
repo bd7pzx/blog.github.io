@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <title>傻瓜都能会的hexo博客搭建方法（CF Workers）</title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+  <body>
+    <main class="container">
+      <header class="header">
+    <div class="blog-title">
+        <h1><a href="/">冬瓜blog</a></h1>
+        <p class="description"></p>
+    </div>
+    <nav class="navbar">
+        <ul class="menu">
+            
+            <li class="menu-item">
+                <a href="/" class="menu-item-link">writing</a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/about" class="menu-item-link">who am I?</a>
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+
+      <article class="post">
+          <div class="post-title">
+            <h2 class="title">傻瓜都能会的hexo博客搭建方法（CF Workers）</h2>
+          </div>          
+          <div class="post-meta">
+            <span class="post-time">2022-12-13</span>
+            
+            
+            <hr>
+          </div>
+          <div class="post-content"><p>Cloudflare更新了他们家的wrangler 2，导致一些教程失效，在这写一下我遇到的坑<br>以下内容在Ubuntu 22.04官方软件源上可用</p>
+<h1 id="一-配置hexo"><a href="#一-配置hexo" class="headerlink" title="一.配置hexo"></a>一.配置hexo</h1><p>hexo的配置很简单，跟着官方教程走就行</p>
+<h2 id="1-配置Node-js-Git"><a href="#1-配置Node-js-Git" class="headerlink" title="1.配置Node.js&#x2F;Git"></a>1.配置Node.js&#x2F;Git</h2><p><code>sudo apt install git-core</code><br><code>sudo apt install nodejs</code></p>
+<h2 id="2-安装hexo本体"><a href="#2-安装hexo本体" class="headerlink" title="2.安装hexo本体"></a>2.安装hexo本体</h2><p><code>npm install hexo-cli -g</code><br>会遇到报错，执行下列命令<br><code>mkdir ~/.npm-global</code><br><code>npm config set prefix &#39;~/.npm-global&#39;</code><br><code>export PATH=~/.npm-global/bin:$PATH</code><br><code>source ~/.profile</code><br><code>npm install -g jshint</code><br>执行完毕后重新安装hexo<br>安装完成后执行<br><code>echo &#39;PATH=&quot;$PATH:./node_modules/.bin&quot;&#39; &gt;&gt; ~/.profile</code><br>以便全局使用hexo</p>
+<h1 id="二-配置Wrangler"><a href="#二-配置Wrangler" class="headerlink" title="二.配置Wrangler"></a>二.配置Wrangler</h1><p>Wrangler算是挺难搞的了，Wrangler2我至今没搞清楚怎么用<br>遂安装Wrangler1<br><code>npm i @cloudflare/wrangler -g</code><br>配置Wrangler，此处需要一个可用的、绑定域名（可不绑定）的Cloudflare账户<br>先创建一个Workers，命名为blog（也可以是别的，后文以blog代替）<br>在<a target="_blank" rel="noopener" href="https://dash.cloudflare.com/">Cloudflare控制台</a>处点击右上角——我的个人资料——API令牌<br>选择创建令牌，模板使用<code>编辑 Cloudflare Workers</code>,账户资源选择<code>你的ID Cloudflare</code>,区域资源选择<code>你的域名（若有）</code>，TTL随意<br>确认后会出现一个Token，这个token<strong>只会出现一次</strong><br>执行命令<br><code>wrangler config</code><br>将你的Token输入进去，正常无报错  </p>
+<h1 id="三-配置项目"><a href="#三-配置项目" class="headerlink" title="三.配置项目"></a>三.配置项目</h1><p>新建一个目录，这个目录就是你的博客工作文件夹<br><code>mkdir ur_dir</code><br><code>cd ur_dir</code><br>执行各个工具的初始化<br><code>hexo init</code><br><code>wrangler init</code><br>hexo的配置文件位于<code>_config.yml</code>,请查阅<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">hexo官方文档</a>修改<br>Wrangler的配置文件位于<code>wrangler.toml</code>,请参考下列配置按需修改  </p>
+<blockquote>
+<p>name &#x3D; “你的workers名称”<br>type &#x3D; “webpack”<br>route &#x3D; ‘你的域名（包括workers.dev）&#x2F;*’<br>zone_id &#x3D; ‘’<br>usage_model &#x3D; ‘’<br>compatibility_flags &#x3D; []<br>workers_dev &#x3D; true<br>compatibility_date &#x3D; “2022-12-13”  </p>
+<p>[site]<br>bucket &#x3D; “.&#x2F;public”<br>entry-point &#x3D; “workers-site”  </p>
+</blockquote>
+<p>保存后即可</p>
+<h1 id="四-编写与上传"><a href="#四-编写与上传" class="headerlink" title="四.编写与上传"></a>四.编写与上传</h1><p>hexo更改主题、配置、新建文章请参考<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">hexo官方文档</a><br>当你写完你的文章后，进行上传<br><code>hexo g</code><br><code>wrangler publish</code><br>也可以使用本地服务器预览<br><code>hexo server</code>  </p>
+<h1 id="五-问题与坑"><a href="#五-问题与坑" class="headerlink" title="五.问题与坑"></a>五.问题与坑</h1><h2 id="1-wrangler命令未找到"><a href="#1-wrangler命令未找到" class="headerlink" title="1.wrangler命令未找到"></a>1.wrangler命令未找到</h2><p>属于变量问题，在<code>wrangler</code>前添加<code>npx</code>即可</p>
+<h2 id="2-wrangler上传失败"><a href="#2-wrangler上传失败" class="headerlink" title="2.wrangler上传失败"></a>2.wrangler上传失败</h2><p>cf日常抽风，挂梯子或者等一会</p>
+<h2 id="3-域名无法打开"><a href="#3-域名无法打开" class="headerlink" title="3.域名无法打开"></a>3.域名无法打开</h2><p>Workers没有绑定你的域名，在你的Workers——自定义域中添加域名<br>包括www与不带www的域名<br>正常的话你的DNS解析会多两条Workers解析</p>
+<h1 id="六-小技巧"><a href="#六-小技巧" class="headerlink" title="六.小技巧"></a>六.小技巧</h1><p>我一般会把<code>hexo g</code>和<code>wrangler publish</code>做成一个sh，方便快捷<br>如下  </p>
+<blockquote>
+<p>#!&#x2F;bin&#x2F;bash<br>hexo g<br>npx wrangler publish  </p>
+</blockquote>
+<p>保存后添加可执行权限就能一个脚本完成生成与上传了</p>
+</div
+
+        </article>
+        
+        <!-- <p class="footer">Made with ♥︎ by 冬瓜</p> -->
+      </main>
+  </body>
+</html>
